@@ -1,0 +1,84 @@
+body
+{
+	margin: 0;
+	background-image: url("img/logo5.png");
+	color: white;
+    font-family: 'Lobster', sans-serif;
+    font-size: 28px;
+}
+
+a:link    { color: white; text-decoration: none; }
+a:visited { color: white; }
+a:active  { color: white; }
+a:hover   { color: #E9B64A; }
+
+h1
+{
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p
+{
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+.board
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.cardA
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/logo.png");
+	border: 5px solid #E9B64A;
+	border-radius: 8px;
+	cursor: default;
+	filter: brightness(100%);
+	transition: all .3s ease-in-out;
+}
+.card
+{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+	margin: 3px;
+	background-image: url("img/logo.png");
+	border: 5px solid #51c8b2;
+	border-radius: 8px;
+	cursor: pointer;
+	filter: brightness(80%);
+	transition: all .3s ease-in-out;
+}
+.card:hover
+{
+	border: 5px solid #E9B64A;
+	filter: brightness(100%);
+}
+.score
+{
+	letter-spacing: 3px;
+	margin-top: 2px;
+}
+.reset
+{
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 70px;
+}
+.reset:hover
+{
+color: #E9B64A;
+}
