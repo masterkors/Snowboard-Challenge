@@ -1,3 +1,3 @@
 # Snowboard-Challenge Demo:
 
-https://masterkors.github.io/Snowboard-Challenge/
+RUN DEMO: https://usernamekors.github.io/Snowboard-Challenge/
